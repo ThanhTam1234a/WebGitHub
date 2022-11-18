@@ -2,3 +2,37 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    display: grid;
+    grid-template-columns: 10% 40% 10% 10% 10% 20% ;
+    width: 1600px;
+    border: 1px solid;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+}
+.item1header{
+    text-align: center;
+    background: greenyellow;
+    padding: 30px;
+    font-size: 20px;
+    border-right: 1px solid;
+}
+.item234header{
+    text-align: end;
+    border-right: 1px solid;
+    padding: 30px;
+    text-decoration: none;
+}
+.item5header{
+    padding: 30px;
+   text-align: center;
+    border-right: 1px solid;
+}
+a:hover .item234header{
+    background: black;
+    color: yellow
+}
+
+   
